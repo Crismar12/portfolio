@@ -17,7 +17,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Github", href: "https://github.com/Crismar12" },
   ],
   socialImage: "/francis-big.jpg",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://portfolio-peach-ten-y2v80mbyty.vercel.app/",
 };
 
 export const SITE_CONTENT: SiteContent = {
