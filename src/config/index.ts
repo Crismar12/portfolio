@@ -1,98 +1,84 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Francis Esculpi — Backend & Fullstack Developer",
+  author: "Francis Esculpi",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-  lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+    "Desarrolladora backend y fullstack. Me especializo en la creación de APIs RESTful y el desarrollo de soluciones integrales. Mi pila tecnológica incluye Python, Java (Spring Boot), Node.js y tecnologías frontend modernas como React y TypeScript",
+  lang: "es",
+  siteLogo: "/francis-big.jpg",
   navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
+    { text: "Experiencia", href: "#experience" },
+    { text: "Proyectos", href: "#projects" },
+    { text: "Sobre mí", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/francis-esculpi-9018752ab/" },
+    { text: "Github", href: "https://github.com/Crismar12" },
   ],
-  socialImage: "/zen-og.png",
+  socialImage: "/francis-big.jpg",
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Francis Esculpi",
+    specialty: "Backend & Fullstack Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Desarrolladora backend y fullstack. Me especializo en la creación de APIs RESTful y el desarrollo de soluciones integrales. Mi pila tecnológica incluye Python, Java (Spring Boot), Node.js y tecnologías frontend modernas como React y TypeScript",
+    email: "printza9.08@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Ética Administraciones",
+      position: "Junior Full-stack Developer",
+      startDate: "Enero 2026",
+      endDate: "Mayo 2026",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Construcción de una Progressive Web App (PWA) para la gestión operativa y administrativa de comunidades urbanísticas.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Darki",
+      position: "Junior Python Developer",
+      startDate: "Julio 2025",
+      endDate: "Septiembre 2025",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Implementé un pipeline de datos automatizado y una API para calcular y enviar métricas diarias de rendimiento comercial vía WhatsApp.",
       ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "El Paraíso del Pollo",
+      summary: "Sistema de gestión de pedidos para restaurante desarrollado con React, TypeScript, Express, PostgreSQL (Neon.tech) y Cloudinary.",
+      linkPreview: "https://paraiso-del-pollo.vercel.app/",
+      linkSource: "https://github.com/Crismar12/paraiso_del_pollo.git",
+      image: "/paraiso_pollo.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Finance Unified Base",
+      summary: "Sistema de análisis de datos que transforma los extractos de tarjetas de crédito (en formato PDF) en conjuntos de datos limpios y listos para el análisis, con el fin de generar informes financieros y obtener información valiosa.",
+      linkSource: "https://github.com/Crismar12/finance-base.git",
+      image: "/finance-base1.jpg",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Crypto Flow",
+      summary: "Sistema de ingeniería de datos robusto y listo para la producción que automatiza la extracción, transformación y carga (ETL) diarias de datos del mercado de criptomonedas.",
+      linkSource: "https://github.com/Crismar12/crypto_flow.git",
+      image: "/coingecko_1.jpg",
+    },
+    {
+      name: "Proyectos Colaborativos",
+      summary: "Plataforma moderna y robusta para la gestión colaborativa de proyectos, diseñada con Spring Boot y una arquitectura web escalable. Permite a los usuarios crear, organizar y colaborar en proyectos utilizando diversas tecnologías.",
+      linkSource: "https://github.com/Crismar12/Proyectos_Colaborativos.git",
+      image: "/pro_colab.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Desarrolladora Backend & Fullstack con experiencia profesional en Python. Me especializo en la construcción de APIs RESTful, el diseño de bases de datos relacionales y el desarrollo de soluciones integrales. Mi stack tecnológico incluye Python, Java (Spring Boot), Node.js y tecnologías frontend modernas como React y TypeScript. Me enfoco en automatizar procesos, construir arquitecturas escalables y entregar código funcional: desde pipelines ETL hasta aplicaciones web completas.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/francis-big.jpg",
   },
 };
-
-// #5755ff
