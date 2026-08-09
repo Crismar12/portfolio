@@ -10,7 +10,7 @@ interface Props {
 const { projects } = Astro.props;
 ---
 
-<Section text="Featured Projects" href="projects">
+<Section text="Proyectos destacados" href="projects">
   {
     projects.map(({ name, summary, image, linkPreview, linkSource }, index) => {
       const top = 98 + index * 40;
@@ -31,15 +31,17 @@ const { projects } = Astro.props;
                   target="_blank"
                   class="after:relative after:-bottom-1.25 after:content-[url(/external.svg)] hover:underline"
                 >
-                  Source
+                  Repositorio
                 </a>
-                <a
-                  href={linkPreview}
-                  target="_blank"
-                  class="after:relative after:-bottom-1.25 after:content-[url(/external.svg)] hover:underline"
-                >
-                  Preview
-                </a>
+                {linkPreview && (
+                  <a
+                    href={linkPreview}
+                    target="_blank"
+                    class="after:relative after:-bottom-1.25 after:content-[url(/external.svg)] hover:underline"
+                  >
+                    Visitar web
+                  </a>
+                )}
               </div>
             </div>
             <div class="flex items-end justify-end overflow-hidden">
